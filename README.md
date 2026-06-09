@@ -48,7 +48,7 @@ Final prediction: Go / Don’t Go
 GuessTheNumber — README.md
 📌 Overview
 This project is a number-guessing game where the computer guesses the player’s secret number using a Binary Search algorithm.
-Instead of guessing randomly, the program uses a divide‑and‑conquer strategy, cutting the search range in half each turn until it finds the correct number.
+Instead of guessing randomly, the program uses a divide‑and‑conquer strategy, halving the search range each turn until it finds the correct number.
 
 This makes the game extremely efficient — it can guess any number in just log₂(n) steps.
 
@@ -74,7 +74,7 @@ The computer starts by guessing the middle of the range.
 
 You tell it whether your number is higher, lower, or correct.
 
-Based on your response, the computer cuts the search space in half.
+Based on your response, the computer halves the search space.
 
 This repeats until the number is found.
 
@@ -87,7 +87,7 @@ This project demonstrates clean functional programming, data processing, and obj
 
 🧩 Features
 ✔️ Print all weather data
-Displays every day’s weather entry exactly as read from the dataset.
+Displays each day’s weather entry exactly as it was read from the dataset.
 
 ✔️ Filter by weather condition
 Print all days matching a condition (e.g., "Clear", "Rain")
@@ -99,7 +99,7 @@ Total rainfall across the entire dataset
 
 Total rainfall after skipping the first 31 days
 
-Total rainfall for the next 28 days after skipping 31
+Total rainfall for the next 28 days after skipping 31 days
 
 Total rainfall for a specific Month
 
@@ -166,3 +166,20 @@ Separate classes for reading, processing, and output
 Clear separation of concerns
 
 Easy to extend or modify
+
+
+Decision Tree Classifier — COMP Class 4 Worksheet 2
+📌 Overview
+This project implements a Decision Tree classification algorithm from scratch using the weather dataset provided in Table 1.
+The goal is to predict whether Alice will go to the beach tomorrow based on three attributes:
+
+Outlook (sunny, cloudy, rainy)
+
+Temperature (hot, mild, cool)
+
+Windy (true, false)
+
+The implementation includes entropy calculation, information gain, selection of the best attribute, tree construction, and the final prediction for a new instance.
+
+What This Project Demonstrates
+This assignment showcases core machine‑learning concepts implemented manually without libraries:
