@@ -1,0 +1,15 @@
+bookingRef,email,paymentMethod,cardNumber,csv,expiry,emailConfirmation,saveDetails
+BR001,test@email.com,Credit Card,1234567812345678,123,12/30,true,true
+BR013,jw2069@kent.ac.uk,Debit Card,1231423423222212,212,02/27,true,true
+BR014,szgdsfgsdfgdfg@gmail.com,Credit Card,1112222222222222,212,07/29,true,true
+BR015,sdsdfgsdgdfgs@gmail.com,Credit Card,3444444433333333,212,02/27,true,true
+BR016,fsdf@gmail.com,Credit Card,4323232123212321,121,07/27,true,true
+BR017,joshuawalters0208@gmail.com,Credit Card,1111111111111111,232,02/27,true,true
+BR019,dfsdf@gmail.com,Credit Card,2222222222222222,121,12/27,true,true
+BR012,dummyAcc@hotmail.com,Credit Card,4465345656752222,404,11/30,true,true
+BR013,jw2069@kent.ac.uk,Debit Card,1231423423222212,212,02/27,true,true
+BR017,joshuawalters0208@gmail.com,Credit Card,1111111111111111,232,02/27,true,true
+BR019,dfsdf@gmail.com,Credit Card,2222222222222222,121,12/27,true,true
+BR021,adammounir1111@gmail.com,Credit Card,1234567891011121,333,07/28,true,false
+BR022,ghghghg@gmail.com,Credit Card,1234567891234567,909,11/27,true,true
+BR022,ghghghg@gmail.com,Credit Card,1234567891234567,909,11/27,true,true

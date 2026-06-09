@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+      "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+      "c:\\Users\\User\\OneDrive - University of Kent\\Year 2\\COMP5009 Soft Dev\\Assignment 2\\Final\\comp5009a2\\lib\\junit-platform-console-standalone-1.10.2.jar"
+    ]
+}
