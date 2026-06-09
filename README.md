@@ -78,3 +78,91 @@ Based on your response, the computer cuts the search space in half.
 
 This repeats until the number is found.
 
+WeatherAnalyzer — README.md
+📌 Overview
+WeatherAnalyzer is a Java application that reads daily weather data from a file and provides a variety of analytical operations.
+It uses Java Streams to filter, aggregate, and extract insights such as rainfall totals, snowfall days, maximum wind speeds, and weather‑condition‑specific dates.
+
+This project demonstrates clean functional programming, data processing, and object‑oriented design.
+
+🧩 Features
+✔️ Print all weather data
+Displays every day’s weather entry exactly as read from the dataset.
+
+✔️ Filter by weather condition
+Print all days matching a condition (e.g., "Clear", "Rain")
+
+Print only the dates for those conditions
+
+✔️ Rainfall analysis
+Total rainfall across the entire dataset
+
+Total rainfall after skipping the first 31 days
+
+Total rainfall for the next 28 days after skipping 31
+
+Total rainfall for a specific Month
+
+✔️ Snowfall analysis
+Print the first N days with snowfall
+
+Print the first 3 snowfall days
+
+✔️ Wind speed analysis
+Find the maximum wind speed in the first 31 days
+
+🧠 How It Works
+The analyser uses a WeatherDataReader to load a list of WeatherData objects from a file.
+Once loaded, the class uses Java Streams to:
+
+Filter entries
+
+Map values
+
+Compute sums
+
+Limit or skip ranges
+
+Extract dates
+
+Compute maximum values
+
+This results in clean, expressive, and efficient data processing
+
+COMP5009 Assignment 2 — Booking & Manifest Processing System
+📌 Overview
+This project is a Java-based booking and payment processing system developed for COMP5009 Assignment 2.
+It reads booking and payment data from CSV files, validates and matches records, applies business rules, and generates a final manifest containing all valid passengers.
+
+The system demonstrates strong use of object‑oriented design, file I/O, data validation, and collection processing.
+
+
+Features
+✔️ CSV Data Processing
+Reads bookings.csv and payments.csv
+
+Parses each row into domain objects
+
+Handles malformed or missing data gracefully
+
+✔️ Booking & Payment Validation
+Matches bookings to payments
+
+Ensures required fields are present
+
+Filters out invalid or unpaid bookings
+
+
+Manifest Generation
+Produces a final manifest.txt file
+
+Contains only valid, fully paid passengers
+
+Sorted and formatted for readability
+
+✔️ Modular OOP Structure
+Separate classes for reading, processing, and output
+
+Clear separation of concerns
+
+Easy to extend or modify
